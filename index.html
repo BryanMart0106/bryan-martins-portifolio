@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Bryan Martins — Estudante de Ciência da Computação na CESAR School." />
+  <title>Bryan Martins - Estudante de Ciência da Computação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor" aria-hidden="true"></div>
+  <div id="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">BM<span></span></a>
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projects.html">Projetos</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" aria-label="Apresentação">
+    <canvas class="hero-canvas" id="particles-canvas" aria-hidden="true"></canvas>
+    <div class="container hero-content">
+      <div class="hero-eyebrow">Disponível para projetos</div>
+      <h1>
+        <h1>
+          <span class="line-muted">Olá, eu sou</span>
+          <div class="typewriter-container">
+            <span class="typewriter" data-words='["Bryan Martins"]'></span>
+          </div>
+        </h1>
+      </h1>         
+      <p class="hero-desc">
+        Estudante de Ciência da Computação focado no universo de IA e Ciência de Dados. Combinando algoritmos,
+        estatística e desenvolvimento de software para construir o futuro dos sistemas inteligentes.
+      </p>
+      <div class="hero-cta">
+        <a href="projects.html" class="btn btn-primary">Ver projetos</a>
+        <a href="contact.html" class="btn btn-outline">Fale comigo</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- About Section -->
+  <section class="section" id="sobre" aria-labelledby="sobre-titulo">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <img class="avatar-box" src="WhatsApp-Image-2026-06-10-at-22.21.26.jpg" alt="Bryan Martins" />
+          <div class="about-accent-line" aria-hidden="true"></div>
+        </div>
+        <div class="about-text">
+          <h2 id="sobre-titulo" class="section-title reveal">Sobre Mim</h2>
+          <p class="reveal reveal-delay-1">
+            Olá,eu sou Bryan Martins, estudante de Ciência da Computação na CESAR School, com base em Recife - PE. Atualmente, estou desenvolvendo minhas habilidades em programação, análise de dados e inteligência artificial por meio de projetos acadêmicos e estudos práticos.
+          </p>
+          <p class="reveal reveal-delay-2">
+            Acredito que a tecnologia tem o potencial de transformar a forma como tomamos decisões e resolvemos desafios complexos. Por isso, estou constantemente aprendendo e explorando novas ferramentas e conceitos nas áreas de Ciência de Dados e Inteligência Artificial.
+          </p>
+          <ul class="about-list reveal reveal-delay-3" aria-label="Informações de contato e localização">
+            <li>Recife, Pernambuco</li>
+            <li>bryanmartinspe@gmail.com</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary reveal reveal-delay-3">Entrar em contato</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Skills Section -->
+  <section class="section" id="habilidades" aria-labelledby="skills-titulo">
+    <div class="container">
+      <span class="section-label reveal">O que eu faço</span>
+      <h2 id="skills-titulo" class="section-title reveal">Habilidades &amp; ferramentas</h2>
+      <br>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon" aria-hidden="true">⚛️</div>
+          <h3>Dados</h3>
+          <ul class="skill-tags" aria-label="Tecnologias de Frontend">
+            <li class="tag">Python</li>
+            <li class="tag">SQL</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal reveal-delay-1">
+          <div class="skill-icon" aria-hidden="true">🖥️</div>
+          <h3>DevOps</h3>
+          <ul class="skill-tags" aria-label="Tecnologias de Backend">
+            <li class="tag">AWS</li>
+            <li class="tag">Docker</li>
+            <li class="tag">CI/CD</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal reveal-delay-2">
+          <div class="skill-icon" aria-hidden="true">☁️</div>
+          <h3>Ferramentas &amp; Versionamento</h3>
+          <ul class="skill-tags" aria-label="Tecnologias de DevOps">
+            <li class="tag">Git</li>
+            <li class="tag">GitHub</li>
+            <li class="tag">VSCode</li>
+            <li class="tag">Linux</li>
+          </ul>
+        </article>
+        <article class="skill-card reveal reveal-delay-3">
+          <div class="skill-icon" aria-hidden="true">🎨</div>
+          <h3>Atualmente aprendendo</h3>
+          <ul class="skill-tags" aria-label="Ferramentas de Design">
+            <li class="tag">TensorFlow</li>
+            <li class="tag">Panda</li>
+            <li class="tag">Machine Learning</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Trajeto Section -->
+  <section class="section" aria-labelledby="trajeto-titulo">
+    <div class="container">
+      <span class="section-label reveal">Trajetória</span>
+      <h2 id="trajeto-titulo" class="section-title reveal">Formação &amp; experiência</h2>
+      <div style="max-width:600px;">
+        <div class="timeline">
+          <article class="timeline-item reveal reveal-delay-2">
+            <p class="timeline-year">2026 – 2030</p>
+            <h3 class="timeline-title">Bacharelado em Ciência da Computação</h3>
+            <p class="timeline-place">CESAR School · Recife</p>          
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Bryan Martins. Feito com HTML, CSS e JS puro.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/portfolio.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

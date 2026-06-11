@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projetos de Bryan Martins — Estudante de Ciência da Computação na CESAR School. Veja cases de frontend, backend e aplicações completas." />
+  <title>Projetos — Bryan Martins</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="cursor" aria-hidden="true"></div>
+  <div id="cursor-ring" aria-hidden="true"></div>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">B<span></span>M</a>
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projects.html">Projetos</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <span class="section-label">Portfólio</span>
+      <h1>Meus projetos</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" style="padding-top:2rem;" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="sr-only">Lista de projetos</h2><br>
+        <br>
+        <div class="projects-grid">
+
+          <article class="project-card reveal" data-cat="fullstack">
+            <br>
+            <div class="project-body">              
+              <h3>Recife Alerta</h3>
+              <p>
+                Desenvolvimento de um jogo de tabuleiro inclusivo para pessoas com deficiência auditiva, utilizando Arduino para criar recursos interativos e acessíveis por meio de sinais visuais e feedback eletrônico.
+              </p>
+              <div class="project-footer">
+                <div class="project-links">
+                  <a href="https://sites.google.com/d/1SnlWyz9fuf4DnkkQBU0osgSybi88sqH3/p/1N3TljqFXyS7cMvVyClMnBWQK6pDwxVab/edit"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Ver Recife Alerta">
+                    ↗ Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-1" data-cat="frontend">
+            <br>
+            <div class="project-body">
+              <h3>Hyrox Planner</h3>
+              <p>
+                Desenvolvimento de um aplicativo para gerenciamento de treinos e competições, com cadastro e acompanhamento de atividades esportivas. O sistema utiliza agentes de IA para fornecer suporte personalizado e auxiliar na análise de desempenho dos usuários.
+             </p>
+              <div class="project-footer">
+                <div class="project-links">
+                  <a href="https://github.com/felipeassiss/HyroxPlanner"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Ver Hyrox Planner">
+                    ↗ Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2" data-cat="mobile">
+            <br>
+            <div class="project-body">
+              <h3>The one who survived</h3>
+              <p>
+                Um jogo de mistério e suspense, desenvolvido por mim e pela minha equipe, na plataforma "Bitsy", para a disciplina de "Introdução à Computação". 
+              </p>
+              <div class="project-footer">
+                <div class="project-links">
+                  <a href="https://bryanmartins.itch.io/the-one-who-survived"
+                  class="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ver The One Who Survived">
+                  ↗ Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">
+        &copy; <span id="year"></span> Bryan Martins. Feito com HTML, CSS e JS puro.
+      </p>
+    </div>
+  </footer>
+  <script src="js/portfolio.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
