@@ -83,19 +83,8 @@ Jogo de mistério e suspense desenvolvido na plataforma Bitsy.
 
 ## Como rodar localmente
 
-Não é necessária nenhuma instalação. Basta abrir o `index.html` diretamente no navegador. Para usar um servidor local:
+Não é necessária nenhuma instalação. Basta abrir o `index.html` diretamente no navegador.
 
-```bash
-# Com Python
-python -m http.server 8000
-
-# Com Node.js
-npx serve .
-```
-
-Depois acesse `http://localhost:8000`.
-
----
 
 ## Licença
 
